@@ -59,7 +59,7 @@
     border-color: var(--color-primary-dark);
 }
 
-.cta-button {
+.cta-form-button {
     margin-top: 12px;
     padding: 14px;
     background-color: var(--color-accent);
@@ -72,7 +72,7 @@
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
-.cta-button:hover {
+.cta-form-button:hover {
     transform: translateY(-2px);
     opacity: 0.9;
 }
