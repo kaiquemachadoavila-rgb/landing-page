@@ -71,6 +71,7 @@ h5 {
 }
 
 .cta-button {
+    display: inline-block;
     color: var(--color-primary-dark);
     text-decoration: none;
     border: none;
