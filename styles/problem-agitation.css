@@ -75,3 +75,55 @@
     max-width: 720px;
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .problem-agitation {
+        padding: 2rem 1rem;
+    }
+
+    .problem-card {
+        padding: 2rem 1.5rem;
+        gap: 1.2rem;
+    }
+
+    .problem-title {
+        font-size: 1.4rem;
+    }
+
+    .problem-text,
+    .agitation-box p {
+        font-size: 1rem;
+    }
+
+    .agitation-box {
+        padding: 1.2rem 1.5rem;
+    }
+
+    .problem-closing {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .problem-card {
+        padding: 1.5rem 1.2rem;
+    }
+
+    .problem-introdution {
+        font-size: 12px;
+    }
+
+    .problem-title {
+        font-size: 1.25rem;
+    }
+
+    .problem-text,
+    .agitation-box p,
+    .problem-closing {
+        font-size: 0.95rem;
+    }
+
+    .agitation-box {
+        padding: 1rem;
+    }
+}

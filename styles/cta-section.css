@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-/* Cta section */
-
 .cta-section {
     background: linear-gradient(180deg, var(--color-bg-contrast-light-green), var(--color-bg-contrast-dark-green));
     padding: 2rem 3rem 8rem 3rem;
@@ -75,4 +73,50 @@
 .cta-form-button:hover {
     transform: translateY(-2px);
     opacity: 0.9;
+}
+
+@media (max-width: 1024px) {
+    .cta-section {
+        padding: 2rem 2rem 6rem;
+    }
+
+    .cta-container {
+        gap: 32px;
+        padding: 40px 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cta-container {
+        grid-template-columns: 1fr;
+        padding: 32px 24px;
+    }
+
+    .cta-text h2 {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .cta-section {
+        padding: 1.5rem 1rem 4rem;
+    }
+
+    .cta-container {
+        padding: 24px 16px;
+        gap: 24px;
+    }
+
+    .cta-text h2 {
+        font-size: 1.5rem;
+    }
+
+    .cta-text p {
+        font-size: 0.95rem;
+    }
+
+    .cta-form-button {
+        font-size: 0.95rem;
+        padding: 12px;
+    }
 }
